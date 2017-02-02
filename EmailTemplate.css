@@ -5,6 +5,7 @@
 	color:#333333;
 }
 body{
+	background-color: rgb(176, 176, 176);
 }
 b{
 	color:#21825C;
@@ -18,28 +19,17 @@ strong{
 	color:brown;
 }
 /*cover::::::::::::::::::::::::::::::::::::::::::::::*/
-.cover_wrap{
-	display: block;
-	max-width: 600px;
-	text-align: center;
-	width: 100%;
-	margin: 0 auto;
-	background-color: #D1D1D1;
-}
 .cover{
-	width: 100%;
-}
-.logo_wrap{
-	display: block;
+	width: 100% !important;
 	max-width: 600px;
-	text-align: center;
-	width: 100%;
 	margin: 0 auto;
-	background-color: none;
+	display: block;
 }
 .logo{
-	width: 125px;
-	margin-top: 20px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	width: 90px;
 }
 /*letter::::::::::::::::::::::::::::::::::::::::::::*/
 .letter{
@@ -68,7 +58,7 @@ strong{
 	padding:2em 0 0em 0;
 	font-size: 1.2em;
 	font-weight: bold;
-	
+
 	max-width: 470px;
 	width: 90%;
 	display: inline-block;
@@ -143,7 +133,7 @@ strong{
 }
 .botton-wrap{
 	background-color: grey;
-	padding: 2em 1em 0.5em 1em;
+	padding: 2em 1em 1.5em 1em;
 	text-align: center;
 
 }
@@ -158,4 +148,16 @@ strong{
 	background-color: grey;
 	border: 2px solid white;
 	margin-top: 5px;
+}
+.contact{
+	margin: 0 auto;
+}
+.contact .first{
+	width: 8em;
+	vertical-align: top;
+	text-align: right;
+}
+.contact .second{
+	vertical-align: top;
+	text-align: left;
 }
