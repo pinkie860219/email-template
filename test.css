@@ -1,0 +1,57 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+    background-color: rgb(207, 207, 207);
+    margin: 0;
+    padding: 0;
+}
+.container{
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 2px 0px;
+}
+.main_part {
+    padding: 1% 5% 1% 5%;
+    text-align: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.article{
+  margin: 0 8% 0 8%;
+}
+.main_part p{
+    line-height: 1.7em;
+}
+.main_part div{
+    text-align: right;
+    padding: 0;
+}
+.list{
+    padding: 1% 5% 5% 5%;
+  background-color:#47c76f;
+}
+.list2{
+    padding: 1% 5% 5% 5%;
+  background-color: #f9cc75;
+}
+.left{
+  text-align: right;
+  vertical-align: top;
+  width:7em;
+}
+.title{
+  font-size: 1.2em;
+}
+li{
+  text-align: left;
+}
