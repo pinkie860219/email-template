@@ -5,7 +5,7 @@
 	color:#333333;
 }
 body{
-	background-color: rgb(176, 176, 176);
+	background-color: white;
 }
 b{
 	color:#21825C;
@@ -128,11 +128,13 @@ strong{
 	max-width: 600px;
 	width: 100% ;
 	margin: 0 auto;
-	background-color: grey;
+	background-color: #D1D1D1;
 	text-align: center;
 }
+.tail *{
+	color:#595757;
+}
 .botton-wrap{
-	background-color: grey;
 	padding: 2em 1em 1.5em 1em;
 	text-align: center;
 
@@ -143,11 +145,12 @@ strong{
 	display: inline-block;
 	text-align: center;
 	border-radius: 5px;
-	color: white;
+	background-color: #595757;
 	text-decoration: none;
-	background-color: grey;
-	border: 2px solid white;
 	margin-top: 5px;
+}
+.botton *{
+	color: white;
 }
 .contact{
 	margin: 0 auto;
