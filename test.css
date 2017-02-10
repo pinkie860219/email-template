@@ -1,0 +1,51 @@
+
+body {
+    background-color: rgb(207, 207, 207);
+    margin: 0;
+    padding: 0;
+}
+.container{
+	text-align: center;
+	width: 100% !important;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.main_part {
+	width: 100%;
+	padding: 20px 20px 20px 20px;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+}
+.article{
+  margin: 0 8% 0 8%;
+}
+.main_part p{
+
+    line-height: 1.7em;
+}
+.main_part div{
+    text-align: right;
+    padding: 0;
+}
+.color1{
+	background: white;
+}
+.color2{
+    padding: 1% 5% 5% 5%;
+  background-color: #f9cc75;
+}
+.color3{
+    padding: 1% 5% 5% 5%;
+  background-color:#47c76f;
+}
+.left{
+  text-align: right;
+  vertical-align: top;
+  width:7em;
+}
+.title{
+  font-size: 1.2em;
+}
+li{
+  text-align: left;
+}
